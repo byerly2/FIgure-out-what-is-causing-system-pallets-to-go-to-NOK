@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#MCL-2340] Load Units that need to be changed to NOT Exchangeable and CHEP</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira.ssi-schaefer.com/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [MCL-2340]&nbsp;<a href="https://jira.ssi-schaefer.com/browse/MCL-2340">Load Units that need to be changed to NOT Exchangeable and CHEP</a>
+            <span class="subText">
+               Created: 16/06/14                   &nbsp;Updated: 01/07/14
+
+                                    &nbsp;Due: 01/07/14
+                                                    &nbsp;Resolved: 27/06/14
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Closed</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira.ssi-schaefer.com/secure/BrowseProject.jspa?id=10500">McLane Springfield 1359870</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+            <tr>
+            <td><b>Security Level:</b></td>
+            <td>
+                Default
+                                    <font size=1> (Project Roles &#39;Users&#39; and &#39;Developers&#39; and Involved Users)</font>
+                            </td>
+       </tr>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Major
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="Tag.Morris@ssi-schaefer.com" id="word_reporter_Tag.Morris@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=Tag.Morris%40ssi-schaefer.com">Tag Morris [X] (Inactive)</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="Alex.Bernskoetter@ssi-schaefer.com" id="word_assignee_Alex.Bernskoetter@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=Alex.Bernskoetter%40ssi-schaefer.com">Alex Bernskoetter</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Fixed
+                    </td>
+                    <td bgcolor="#ffffff" colspan="2">&nbsp;</td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-143937-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            GW, MONITORING                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            0h
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            2h
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira.ssi-schaefer.com/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    NOK 1 Logs.  LoadUnit.Exchangeable.Issue &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Dependency</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                has depending
+            </td>
+            <td>
+                <a href="https://jira.ssi-schaefer.com/browse/MCL-2341">
+                     <strike>MCL-2341</strike>                 </a>
+            </td>
+            <td>
+                Pallets arriving at Pallet Hospital w...
+            </td>
+            <td>
+                Closed
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Scope:</b></td>
+                <td id="customfield_10041-143937-value" class="value" bgcolor="#ffffff" width="80%">    external
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Contact:</b></td>
+                <td id="customfield_10011-143937-value" class="value" bgcolor="#ffffff" width="80%">      Tag Morris
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Author:</b></td>
+                <td id="customfield_10130-143937-value" class="value" bgcolor="#ffffff" width="80%">      Tag Morris
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Responsible:</b></td>
+                <td id="customfield_10140-143937-value" class="value" bgcolor="#ffffff" width="80%">      Romania
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Watchers:</b></td>
+                <td id="customfield_10170-143937-value" class="value" bgcolor="#ffffff" width="80%">    <div class="shorten" id="customfield_10170-field">
+                                    <span class="tinylink">        <span class="user-hover" rel="Alex.Bernskoetter@ssi-schaefer.com" id="multiuser_cf_Alex.Bernskoetter@ssi-schaefer.com">Alex Bernskoetter</span></span>,                                                 <span class="tinylink">        <span class="user-hover" rel="Colin.Langfitt@ssi-schaefer.com" id="multiuser_cf_Colin.Langfitt@ssi-schaefer.com">Colin Langfitt</span></span>,                                                 <span class="tinylink">        <span class="user-hover" rel="Denise.Blauvelt@ssi-schaefer.com" id="multiuser_cf_Denise.Blauvelt@ssi-schaefer.com">Denise Blauvelt</span></span>,                                                 <span class="tinylink">        <span class="user-hover" rel="Tripon.Moisa@ssi-schaefer.com" id="multiuser_cf_Tripon.Moisa@ssi-schaefer.com">Moisa Tripon</span></span>,                                                 <span class="tinylink">        <span class="user-hover" rel="Norbert.Ruschke@ssi-schaefer.com" id="multiuser_cf_Norbert.Ruschke@ssi-schaefer.com">Ruschke Norbert</span></span>,                                                 <span class="tinylink">        <span class="user-hover" rel="Tag.Morris@ssi-schaefer.com" id="multiuser_cf_Tag.Morris@ssi-schaefer.com">Tag Morris [X] (Inactive)</span></span>,                                                 <span class="tinylink">        <span class="user-hover" rel="adrian.tarniceru@ssi-schaefer.com" id="multiuser_cf_adrian.tarniceru@ssi-schaefer.com">Tarniceru Adrian</span></span>                        </div>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>McLane is wanting a way to change pallets (that require 2 pallets) that are already stored in the warehouse to NOT Exchangeable as well as make the system recognize that the load unit has a double pallet.  All pallets coming in through receiving right now are correctly being marked as CHEP and as not Exchangeable.  McLane wants a way to correct the Load Units that were received incorrectly and are not recognized in the system as CHEP or Not Exchangeable.</p>
+
+<p>Nick and I ran the test that Adi asked this morning.  The first pallet that came to the hospital was #10001879.  It contained item #384222.  We unchecked the “Exchangeable” box and sent it out.  It went to the proper location.</p>
+
+<p>The second pallet that we tested was #10006438   and contained item #451922.  We unchecked the “Exchangeable” box and sent it out but it came back to the hospital.</p>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-284277"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Tripon.Moisa@ssi-schaefer.com" id="word_commented_Tripon.Moisa@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=Tripon.Moisa%40ssi-schaefer.com">Moisa Tripon</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">16/06/14</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-284277"><td bgcolor="#ffffff">
+            <p>when was the test performed?</p>
+        </td></tr>
+                <tr id="comment-header-284365"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Tag.Morris@ssi-schaefer.com" id="word_commented_Tag.Morris@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=Tag.Morris%40ssi-schaefer.com">Tag Morris [X] (Inactive)</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">17/06/14</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-284365"><td bgcolor="#ffffff">
+            <p>The test was performed on June 11th around 10:00 AM.  </p>
+        </td></tr>
+                <tr id="comment-header-284433"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Tripon.Moisa@ssi-schaefer.com" id="word_commented_Tripon.Moisa@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=Tripon.Moisa%40ssi-schaefer.com">Moisa Tripon</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">17/06/14</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-284433"><td bgcolor="#ffffff">
+            <p>I checked the examples and the code and we need a patch.</p>
+
+<p>com.ssn.mclane.logistics.common.wms2mfs.WMS2MFSSendTelegramFactory.getWMS2MFSTelegramCreateTOFromLoadUnit(ACXSessionContext, WMSLoadUnit, String, List&lt;String&gt;, boolean) </p>
+        </td></tr>
+                <tr id="comment-header-284434"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Tripon.Moisa@ssi-schaefer.com" id="word_commented_Tripon.Moisa@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=Tripon.Moisa%40ssi-schaefer.com">Moisa Tripon</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">17/06/14</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-284434"><td bgcolor="#ffffff">
+            <p>Adi, please schedule a deploy this week for this.</p>
+        </td></tr>
+                <tr id="comment-header-284659"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Tripon.Moisa@ssi-schaefer.com" id="word_commented_Tripon.Moisa@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=Tripon.Moisa%40ssi-schaefer.com">Moisa Tripon</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">20/06/14</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-284659"><td bgcolor="#ffffff">
+            <p>please deploy com/ssn/mclane/logistics/common/wms2mfs/WMS2MFSSendTelegramFactory.java,v 1.95</p>
+        </td></tr>
+                <tr id="comment-header-284781"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="adrian.tarniceru@ssi-schaefer.com" id="word_commented_adrian.tarniceru@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=adrian.tarniceru%40ssi-schaefer.com">Tarniceru Adrian</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">23/06/14</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-284781"><td bgcolor="#ffffff">
+            <p>deployed today</p>
+        </td></tr>
+                <tr id="comment-header-284782"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="adrian.tarniceru@ssi-schaefer.com" id="word_commented_adrian.tarniceru@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=adrian.tarniceru%40ssi-schaefer.com">Tarniceru Adrian</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">23/06/14</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-284782"><td bgcolor="#ffffff">
+            <p>please test when you have the chance</p>
+        </td></tr>
+                <tr id="comment-header-284865"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Tag.Morris@ssi-schaefer.com" id="word_commented_Tag.Morris@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=Tag.Morris%40ssi-schaefer.com">Tag Morris [X] (Inactive)</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">23/06/14</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-284865"><td bgcolor="#ffffff">
+            <p>I just tested this.  Pal # 10019176 came to NOK 1 with a "heightNotInBounds" error.  The NOK operator unchecked the exchangeable flag.  The pallet left NOK 1 and then came back into the station rather than storing in HBW. I attached the logs for you.  Let me know if you need me what you need me to do next.</p>
+
+<p>Thanks!</p>
+        </td></tr>
+                <tr id="comment-header-284868"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Tripon.Moisa@ssi-schaefer.com" id="word_commented_Tripon.Moisa@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=Tripon.Moisa%40ssi-schaefer.com">Moisa Tripon</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">23/06/14</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-284868"><td bgcolor="#ffffff">
+            <p>A fix is needed in com.ssn.mclane.logistics.common.wms2mfs.WMS2MFSSendTelegramFactory.getWMS2MFSTelegramCreateTOFromLoadUnit(ACXSessionContext, WMSLoadUnit, String, List&lt;String&gt;, boolean)</p>
+
+<p><b>original</b></p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java"><span class="code-object">boolean</span> isVendorPalType = lu.getVendorPalType() != <span class="code-keyword">null</span> <span class="code-comment">// 
+</span>      &amp;&amp; (lu.getVendorPalType().equals(WMSLoadUnitTypeEnum.GMA.toString()) <span class="code-comment">// 
+</span>        || lu.getVendorPalType().equals(WMSLoadUnitTypeEnum.CHEP.toString()) <span class="code-comment">// 
+</span>        || lu.getVendorPalType().equals(WMSLoadUnitTypeEnum.LARGE.toString()) <span class="code-comment">//
+</span>        || lu.getVendorPalType().equals(WMSLoadUnitTypeEnum.SMALL.toString()) <span class="code-comment">// 
+</span>      || lu.getVendorPalType().equals(WMSLoadUnitTypeEnum.PLASTIC.toString()) <span class="code-comment">// 
+</span>      );
+</pre>
+</div></div>
+
+<p><b>new</b></p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java"><span class="code-object">boolean</span> isVendorPalType = lu.getVendorPalType() != <span class="code-keyword">null</span> <span class="code-comment">// 
+</span>      &amp;&amp; (lu.getVendorPalType().equals(WMSLoadUnitTypeEnum.GMA.toString()) <span class="code-comment">// 
+</span>        || lu.getVendorPalType().equals(WMSLoadUnitTypeEnum.CHEP.toString()) <span class="code-comment">// 
+</span>        || lu.getVendorPalType().equals(WMSLoadUnitTypeEnum.LARGE.toString()) <span class="code-comment">//
+</span>        || lu.getVendorPalType().equals(WMSLoadUnitTypeEnum.SMALL.toString()) <span class="code-comment">// 
+</span>      || lu.getVendorPalType().equals(WMSLoadUnitTypeEnum.PLASTIC.toString()) <span class="code-comment">// 
+</span>      || !lu.isExchangeable() <span class="code-comment">//
+</span>      );
+</pre>
+</div></div>
+        </td></tr>
+                <tr id="comment-header-284869"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Tripon.Moisa@ssi-schaefer.com" id="word_commented_Tripon.Moisa@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=Tripon.Moisa%40ssi-schaefer.com">Moisa Tripon</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">23/06/14</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-284869"><td bgcolor="#ffffff">
+            <p>Andrea, please deploy com/ssn/mclane/logistics/common/wms2mfs/WMS2MFSSendTelegramFactory.java,v 1.96</p>
+        </td></tr>
+                <tr id="comment-header-285215"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Tag.Morris@ssi-schaefer.com" id="word_commented_Tag.Morris@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=Tag.Morris%40ssi-schaefer.com">Tag Morris [X] (Inactive)</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">26/06/14</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-285215"><td bgcolor="#ffffff">
+            <p>I will test this today and let you know if it worked.</p>
+        </td></tr>
+                <tr id="comment-header-285400"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Tripon.Moisa@ssi-schaefer.com" id="word_commented_Tripon.Moisa@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=Tripon.Moisa%40ssi-schaefer.com">Moisa Tripon</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">27/06/14</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-285400"><td bgcolor="#ffffff">
+            <p>Please re-open if still an issue, otherwise close it after testing on-site</p>
+        </td></tr>
+                <tr id="comment-header-285414"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="adrian.tarniceru@ssi-schaefer.com" id="word_commented_adrian.tarniceru@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=adrian.tarniceru%40ssi-schaefer.com">Tarniceru Adrian</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">27/06/14</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-285414"><td bgcolor="#ffffff">
+            <p>regarding "heightNotInBounds" error we increased today the <tt>/mclane/logistics/mfs/hbw/cs/emptyVendorPalletHeightTolerance</tt> from 20mm to 80mm.</p>
+
+<p>Tag will restart the mfsPallet service in order for the new parameter to be loaded and get information from workers in receiving area if there are still issues.</p>
+        </td></tr>
+                <tr id="comment-header-285642"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Tag.Morris@ssi-schaefer.com" id="word_commented_Tag.Morris@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=Tag.Morris%40ssi-schaefer.com">Tag Morris [X] (Inactive)</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">30/06/14</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-285642"><td bgcolor="#ffffff">
+            <p>I restarted the mfsPallet service on 6-27-14.  I am going to test this change this morning (6-30-14).  I will update all with how it goes.</p>
+        </td></tr>
+                <tr id="comment-header-285763"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Tag.Morris@ssi-schaefer.com" id="word_commented_Tag.Morris@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=Tag.Morris%40ssi-schaefer.com">Tag Morris [X] (Inactive)</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">30/06/14</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-285763"><td bgcolor="#ffffff">
+            <p>There were no errors today when we were monitoring.  We are going to monitor this again tomorrow to verify that we have no issues. </p>
+        </td></tr>
+                <tr id="comment-header-285925"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Alex.Bernskoetter@ssi-schaefer.com" id="word_commented_Alex.Bernskoetter@ssi-schaefer.com" href="https://jira.ssi-schaefer.com/secure/ViewProfile.jspa?name=Alex.Bernskoetter%40ssi-schaefer.com">Alex Bernskoetter</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">01/07/14</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-285925"><td bgcolor="#ffffff">
+            <p>With exchangeable enabled:<br/>
+INFO  2014-07-01 09:42:04.515 HBWConveyorEventHandlingHelper <span class="error">&#91;r: PAL&#93;</span> <span class="error">&#91;PNO01SC01 &#93;</span> 10001242                       - ###minHeight =438,maxHeight=591,reportedHeight=785,emptyTUHeight=171<br/>
+INFO  2014-07-01 09:42:04.515 HBWConveyorEventHandlingHelper <span class="error">&#91;r: PAL&#93;</span> <span class="error">&#91;PNO01SC01 &#93;</span> 10001242                       - ###expectedHeight=614,tolerance=20;heightNotInBounds -&gt; true</p>
+
+
+<p>Removed exchangeable flag:<br/>
+INFO  2014-07-01 09:44:46.559 HBWConveyorEventHandlingHelper <span class="error">&#91;r: PAL&#93;</span> <span class="error">&#91;PNO01SC01 &#93;</span> 10001242                       - ###minHeight =438,maxHeight=591,reportedHeight=785,emptyTUHeight=171<br/>
+INFO  2014-07-01 09:44:46.559 HBWConveyorEventHandlingHelper <span class="error">&#91;r: PAL&#93;</span> <span class="error">&#91;PNO01SC01 &#93;</span> 10001242                       - ###expectedHeight=493,tolerance=100;heightNotInBounds -&gt; false</p>
+        </td></tr>
+            </table>
+Generated at Mon Jun 25 22:47:10 CEST 2018 by Dan Byerly using JIRA 7.3.8#73019-sha1:94e8771b8094eef96c119ec22b8e8868d286fa88.
+
+</body>
+</html>
